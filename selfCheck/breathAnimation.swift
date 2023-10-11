@@ -36,10 +36,7 @@ struct breathAnimation: View {
                         startAnimation.toggle()
                         
                     }
-                    withAnimation(.easeInOut.repeatForever(autoreverses: true).speed(0.06)) {
-                        animation.toggle()
-                        
-                    }
+                 
                     
                 }
                 
